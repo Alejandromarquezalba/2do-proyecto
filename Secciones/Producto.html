@@ -71,6 +71,53 @@
         gap: 20px;
         width: auto;
     }
+    .container_producto{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        max-width: 1100px;
+    }
+    .card_producto{
+        width: 100%;
+        margin: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0,2);
+        cursor: default;
+        transition: all 400ms ease;
+    }
+    .card_producto:hover{
+        box-shadow: 5px 5px 20px rgba(0,0,0,0,4);
+        transform: translate(-3%);
+    }
+    .card_producto img{
+        width: 100%;
+        height: 210px;
+    }
+    .card_producto .contenido_producto{
+        padding: 15px;
+        text-align: center;
+    }
+    .card_producto .contenido_producto p{
+        color: grey;
+    }
+    .card_producto .contenido_producto a{
+        display: inline-block;
+        padding: 10px;
+        margin-top: 10px;
+        text-decoration: none;
+        color: orange;
+        border: 1px solid orange;
+        border-radius: 4px;
+        transition: all 400ms ease;
+    }
+    .card_producto .contenido_producto a:hover{
+        background: orange;
+        color: white;
+    }
+
     .item{
         background-color: red;
         border: 3px solid #000;
@@ -151,24 +198,101 @@
         </ul>
     </nav>
 
-<div class="contenedor_grid">
-    <div class="item item1"></div>
-    <div class="item item2"></div>
-    <div class="item item3"></div>
-    <div class="item item4"></div>
-    <div class="item item5"></div>
-    <div class="item item6"></div>
-    <div class="item item7"></div>
-    <div class="item item8"></div>
-    <div class="item item9"></div>
+<div class="container_producto">
+    <div class="card_producto">
+        <figure>
+            <img src="../imagenes/castillo.jpg">
+        </figure>
+        <div class="contenido_producto">
+            <h3>Tarjeta 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque animi et nisi iste eligendi ipsa officia, soluta aspernatur porro aliquid magni totam nihil expedita consequatur asperiores repellat fuga eum magnam.</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
+    <div class="card_producto">
+        <figure>
+            <img src="../imagenes/frutas.jpg">
+        </figure>
+        <div class="contenido_producto">
+            <h3>Tarjeta 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque animi et nisi iste eligendi ipsa officia, soluta aspernatur porro aliquid magni totam nihil expedita consequatur asperiores repellat fuga eum magnam.</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
+    <div class="card_producto">
+        <figure>
+            <img src="../imagenes/tree.jpg">
+        </figure>
+        <div class="contenido_producto">
+            <h3>Tarjeta 3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque animi et nisi iste eligendi ipsa officia, soluta aspernatur porro aliquid magni totam nihil expedita consequatur asperiores repellat fuga eum magnam.</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
+    <div class="card_producto">
+        <figure>
+            <img src="../imagenes/golden.jpg">
+        </figure>
+        <div class="contenido_producto">
+            <h3>Tarjeta 4</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque animi et nisi iste eligendi ipsa officia, soluta aspernatur porro aliquid magni totam nihil expedita consequatur asperiores repellat fuga eum magnam.</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
+    <div class="card_producto">
+        <figure>
+            <img src="../imagenes/ice.jpg">
+        </figure>
+        <div class="contenido_producto">
+            <h3>Tarjeta 5</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque animi et nisi iste eligendi ipsa officia, soluta aspernatur porro aliquid magni totam nihil expedita consequatur asperiores repellat fuga eum magnam.</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
+    <div class="card_producto">
+        <figure>
+            <img src="../imagenes/waterfall.jpg">
+        </figure>
+        <div class="contenido_producto">
+            <h3>Tarjeta 6</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque animi et nisi iste eligendi ipsa officia, soluta aspernatur porro aliquid magni totam nihil expedita consequatur asperiores repellat fuga eum magnam.</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
+    <div class="card_producto">
+        <figure>
+            <img src="../imagenes/mountain.jpg">
+        </figure>
+        <div class="contenido_producto">
+            <h3>Tarjeta 7</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque animi et nisi iste eligendi ipsa officia, soluta aspernatur porro aliquid magni totam nihil expedita consequatur asperiores repellat fuga eum magnam.</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
+    <div class="card_producto">
+        <figure>
+            <img src="../imagenes/champagne.jpg">
+        </figure>
+        <div class="contenido_producto">
+            <h3>Tarjeta 8</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque animi et nisi iste eligendi ipsa officia, soluta aspernatur porro aliquid magni totam nihil expedita consequatur asperiores repellat fuga eum magnam.</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
+    <div class="card_producto">
+        <figure>
+            <img src="../imagenes/tree.jpg">
+        </figure>
+        <div class="contenido_producto">
+            <h3>Tarjeta 9</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque animi et nisi iste eligendi ipsa officia, soluta aspernatur porro aliquid magni totam nihil expedita consequatur asperiores repellat fuga eum magnam.</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
 </div>
 
 
-<div>
-    <p class="producto_contenido"><strong>Parrafo de ejemplo modificado con margin y paddin:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi beatae aliquam quos dicta molestias non quam optio tempore, ex aperiam eius asperiores explicabo suscipit placeat dolores. Officiis ut reprehenderit esse animi perspiciatis eos, quasi doloremque quidem repellendus possimus molestiae qui laborum ab provident, ratione quae officia! Possimus fuga esse sed nostrum consequuntur, aliquam laudantium quis minus dolorem. Cum magni, exercitationem doloribus expedita quia facilis facere labore adipisci!.</p>
-<p class="producto_contenido2">
-    <span class="negritas"><strong><i>Parrafo de ejemplo modificado con margin y paddin:</i></strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maxime molestiae eligendi! Aut beatae quae inventore eligendi harum asperiores, cum ipsum laudantium, voluptates excepturi ratione dolorum officia velit temporibus eius neque, eaque ut assumenda distinctio! Aliquam explicabo, similique amet dolorem provident atque sunt nulla expedita accusantium commodi, incidunt earum nemo natus praesentium consequuntur. Ducimus eius similique corporis eum accusamus repudiandae, debitis consectetur! Non placeat, veniam repudiandae delectus aspernatur deserunt unde quibusdam. Nemo repellat earum saepe, quas nisi ipsam, itaque reiciendis ratione asperiores quaerat autem quia reprehenderit voluptas error quos consectetur consequatur officia id. Dolor ipsa obcaecati perferendis soluta commodi aperiam facere necessitatibus, in placeat fugit amet saepe explicabo laboriosam corporis suscipit alias omnis consequatur officia molestiae ullam eaque. Vel, laudantium.
-</p>
+
 </div>
 
 </body>
